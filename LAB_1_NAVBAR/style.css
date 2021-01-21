@@ -13,6 +13,16 @@ body {
   height: 50px;
   background: #3a3633;
   color: #fff;
+    z-index: 1;
+}
+
+.footbar {
+    height: 50px;
+    background: #ff9aa2;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .center-content {
@@ -24,7 +34,6 @@ body {
 .main {
   flex-grow: 1;
 }
-
 
 img{
     width: 200px;
